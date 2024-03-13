@@ -12,7 +12,6 @@ import { User } from "@prisma/client";
 import useRentModal from "@/app/hooks/useRentModal";
 
 interface UserMenuProps {
-  // currentUser?: SafeUser | null;
   currentUser?: User | null;
 }
 

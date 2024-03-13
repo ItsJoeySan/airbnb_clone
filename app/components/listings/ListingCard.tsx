@@ -1,7 +1,7 @@
 "use client";
 
 import useCountries from "@/app/hooks/useCountries";
-import { Listing, Reservation } from "@prisma/client";
+import { Listing, Reservation, User } from "@prisma/client";
 import { SafeUser } from "@/app/types";
 import { useRouter } from "next/navigation";
 import React, { useMemo } from "react";
@@ -19,7 +19,7 @@ interface ListingCardProps {
   disabled?: boolean;
   actionLabel?: string;
   actionId?: string;
-  currentUser?: SafeUser | null;
+  currentUser?: User | null;
 }
 const ListingCard: React.FC<ListingCardProps> = ({
   data,
