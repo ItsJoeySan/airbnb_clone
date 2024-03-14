@@ -42,57 +42,57 @@ export const categories = [
   {
     label: "Pools",
     icon: TbPool,
-    desciption: "This property has a pool!",
+    description: "This property has a pool!",
   },
   {
     label: "Islands",
     icon: GiIsland,
-    desciption: "This property is on an island!",
+    description: "This property is on an island!",
   },
   {
     label: "Lake",
     icon: GiBoatFishing,
-    desciption: "This property is is close to lake!",
+    description: "This property is is close to lake!",
   },
   {
     label: "Skiing",
     icon: FaSkiing,
-    desciption: "This property has skiing activities!",
+    description: "This property has skiing activities!",
   },
   {
     label: "Castles",
     icon: GiCastle,
-    desciption: "This property is in a castle!",
+    description: "This property is in a castle!",
   },
   {
     label: "Camping",
     icon: GiForestCamp,
-    desciption: "This property has camping activities!",
+    description: "This property has camping activities!",
   },
   {
     label: "Arctic",
     icon: BsSnow,
-    desciption: "This property has camping activities!",
+    description: "This property has camping activities!",
   },
   {
     label: "Cave",
     icon: GiCaveEntrance,
-    desciption: "This property is in a cave!",
+    description: "This property is in a cave!",
   },
   {
     label: "Desert",
     icon: GiCactus,
-    desciption: "This property is in the desert!",
+    description: "This property is in the desert!",
   },
   {
     label: "Barns",
     icon: GiBarn,
-    desciption: "This property is in the barn!",
+    description: "This property is in the barn!",
   },
   {
     label: "Lux",
     icon: IoDiamond,
-    desciption: "This property is luxurious!",
+    description: "This property is luxurious!",
   },
 ];
 

@@ -14,9 +14,7 @@ interface IUseFavorite {
 }
 
 const useFavorite = ({ listingId, currentUser }: IUseFavorite) => {
-  console.log(currentUser);
   const router = useRouter();
-
   const loginModal = useLoginModal();
 
   const hasFavorited = useMemo(() => {
